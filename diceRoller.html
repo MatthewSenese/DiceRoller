@@ -9,6 +9,8 @@
     <head>
         <meta charset="UTF=8">
         <title>Dice Roller</title>
+        <link rel="stylesheet" href="diceRoller.css">
+        <script src="diceRoller.js"></script>
     </head>
     <body>
         <h1>Welcome to Dice Roller!</h1>
@@ -17,6 +19,18 @@
         <h3>Each player will roll 2 dice, and the person with the closer numbers wins</h3>
         <hr>
         <hr>
+        <br>
+        <button type="button" onclick="RollSixSidedDice()">Player 1: Die #1</button><br>
+        Die #1: <input id="dice" type="text" value="" size="5" disabled><br><br>
+
+        <button type="button" onclick="RollSixSidedDice()">Player 1: Die #2</button><br>
+        Die #2: <input id="dice" type="text" value="" size="5" disabled><br><br><br>
+
+        <button type="button" onclick="RollSixSidedDice()">Player 2: Die #1</button><br>
+        Die #1: <input id="dice" type="text" value="" size="5" disabled><br><br>
+
+        <button type="button" onclick="RollSixSidedDice()">Player 2: Die #2</button><br>
+        Die #2: <input id="dice" type="text" value="" size="5" disabled><br>
     </body>
 
 </html>
